@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Become() {
   return (
     <>
@@ -20,7 +21,9 @@ export default function Become() {
               Create an account buttom
             </button>
           </div>
-          <div className="basis-3/4"></div>
+          <div className="basis-3/4">
+            {/* <Beslider/> */}
+          </div>
         </div>
       </div>
       </div>
