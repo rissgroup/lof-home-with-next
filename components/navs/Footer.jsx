@@ -2,11 +2,11 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import twit from "../../public/assets/Icons/Twitter.svg";
-import telegram from "../../public/assets/Icons/Telegram.svg";
 import instagram from "../../public/assets/Icons/instagram.svg";
 import reddit from "../../public/assets/Icons/reddit.svg";
 import discord from "../../public/assets/Icons/discord.svg";
 import heart from "../../public/assets/Icons/Herat.svg";
+import telegram from "../../public/assets/Icons/telegram.svg";
 
 export default function Footer() {
   return (
