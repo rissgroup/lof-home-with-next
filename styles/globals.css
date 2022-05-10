@@ -495,7 +495,7 @@ object-fit: cover;
 }
 .privacy-heading h1{
     
-font-family: 'AllRound1';
+/* font-family: 'AllRound1'; */
 font-style: normal;
 font-weight: 700;
 font-size: 38px;
@@ -505,10 +505,10 @@ font-size: 38px;
 }
 .mainPrivacy-txt p{
 
-font-family: 'Hind Vadodara';
+/* font-family: 'Hind Vadodara'; */
 font-style: normal;
 font-weight: 400;
-font-size: 1.1rem;
+font-size: 0.9rem;
 
  
 }
@@ -517,28 +517,28 @@ font-size: 1.1rem;
   } 
 
   .defination-part h4{
-    font-family: 'Hind Vadodara';
+    /* font-family: 'Hind Vadodara'; */
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 color: #D8AAF8; 
 }
 .defination-part h3{
-  font-family: 'Hind Vadodara';
+  /* font-family: 'Hind Vadodara'; */
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
 color: #D8AAF8;
 }
 .defination-part p{
-  font-family: 'Hind Vadodara';
+  /* font-family: 'Hind Vadodara'; */
   font-style: normal;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
    }
    .defination-part span{
     color:#D8AAF8;
-    font-family: 'Hind Vadodara';
+    /* font-family: 'Hind Vadodara'; */
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -550,10 +550,10 @@ color: #D8AAF8;
 
     }
     .defination-part li {
-    font-family: 'Hind Vadodara';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.1rem;
+    /* font-family: 'Hind Vadodara'; */
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 0.9rem;
    }
    .defination-part ul {
     list-style: none; /* Remove default bullets */
@@ -566,7 +566,7 @@ color: #D8AAF8;
     line-height: normal;
     display: inline-block;
     width: 1em;
-    margin-left: -1em;
+
   }
 
 
@@ -588,16 +588,16 @@ color: #D8AAF8;
  
 }
 .RiskPolicyDiv p {
-  font-size: 1.2rem;
-  line-height: 2.5rem;
+  font-size: .9rem;
+  line-height: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  font-family: Hind Vadodara;
+  /* font-family: Hind Vadodara; */
   color: white;
 }
 .RiskPolicyDiv li {
-  font-size: 1.1rem;
-  font-family: Hind Vadodara;
+  font-size: .9rem;
+  /* font-family: Hind Vadodara; */
 }
 .RiskPolicyDiv .rowPadding {
   padding: 0 6%;
@@ -607,7 +607,8 @@ color: #D8AAF8;
   color: #d8aaf8;
 }
 .RiskPolicyDiv .fweight {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 .RiskPolicyDiv .firstH1 {
   font-family: 'AllRound1';
@@ -624,14 +625,14 @@ color: #D8AAF8;
  /* Remove default bullets */
 }
 .RiskPolicyDiv ul li::before {
-  content: "\2022";
-  color: #d8aaf8;
-  font-weight: bold;
-  font-size: 1.8rem;
-  line-height: normal;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+  content: "\2022" !important;
+  color: #d8aaf8 !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  line-height: normal !important;
+  display: inline-block !important;
+  width: 1em !important;
+
 }
 .RiskPolicyDiv .termsScroll {
   height: 60vh !important;
