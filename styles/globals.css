@@ -393,24 +393,24 @@ object-fit: cover;
 .TermAndConditionDiv{
   padding-top: 7%;
   /* height: 70vh; */
-  background-image: url("../public/assets/Become-bg.png");
+  /* background-image: url("../public/assets/Become-bg.png"); */
   /* background-color: black; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .TermAndConditionDiv p{
-  font-size: 1.2rem;
-  line-height: 2.5rem;
+  font-size: 0.87rem;
+  line-height: 1.8rem;
   font-style: normal;
   font-weight: 400;
-  font-family: 'Hind Vadodara';
+  /* font-family: 'Hind Vadodara'; */
 }
 
 .TermAndConditionDiv li{
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   line-height: 2.6rem;
-  font-family: 'Hind Vadodara';
+  /* font-family: 'Hind Vadodara'; */
 }
 
 
@@ -423,7 +423,8 @@ object-fit: cover;
   color:#d8aaf8;
 }
 .fweight{
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .firstH1{
@@ -438,24 +439,26 @@ object-fit: cover;
 }
 .firsth4{
   font-weight: 700;
+  font-size: 1.1rem;
+
 }
 .firsth4 h6{
   font-size: 1.1rem;
 }
 
-.firsth4 ul {
+.TermAndConditionDiv ul {
   list-style: none; /* Remove default bullets */
   
 }
-.firsth4 ul li::before {
-  content: "\2022";
-  color: #d8aaf8;
-  font-weight: bold;
-  font-size: 1.8rem;
-  line-height: normal;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+.TermAndConditionDiv ul li::before {
+  content: "\2022" !important;
+  color: #d8aaf8 !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  line-height: normal !important;
+  display: inline-block !important; 
+  width: 1em !important;
+  /* margin-left: -1em; */
   
 }
 
@@ -642,3 +645,10 @@ color: #D8AAF8;
 .for-page-bg{
   background-image: url(../public/assets/Become-bg.png);
 }
+
+
+
+
+
+/* ************************* for ul-li ************** */
+
